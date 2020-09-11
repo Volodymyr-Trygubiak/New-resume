@@ -1,0 +1,153 @@
+/* resset styles*/
+body,p {
+    margin: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+}
+body {
+    background-color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+/* left side */
+.left-side {
+    background-color: #08243A;
+    color: #fff;
+    max-width: 400px;
+}
+.left-side-card {
+    background-color: #08243A;
+}
+.main-info {
+    padding: 24px;
+    text-align: center;
+}
+.main-frase {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #001429;
+    padding: 5px 10px;
+}
+.main-title {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.normal {
+    font-weight: 500;
+}
+.light {
+    color: #92A5B3;
+}
+
+.user-photo {
+    width: 250px;
+    height: 250px;
+    margin: 40px auto;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    background: #001429 url(./img/photo_2020-09-06_22-11-04.jpg) no-repeat center/contain;
+}
+.left-title {
+    background-color: #001429;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-list {
+    list-style: none;
+    margin: 10px;
+}   
+
+.contacts-list li {
+    margin: 10px;
+}
+.language-list {
+    font-weight: 700;
+    position: relative;
+}
+.hobbies-list {
+    padding-bottom: 30px;
+}
+.one-line {
+    position: absolute;
+    left: 150px;
+    font-weight: 400;
+}
+
+    /* Rigth side */
+
+.right-side-card {
+min-height: 300px;
+position: relative;
+font-weight: bold;
+width: 500px;
+padding: 0 50px;
+}
+
+
+
+.right-title {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    width: 250px;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 0px 0 20px 20px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -106px;
+    top: 43%;
+}
+.right-list {
+    list-style: none;
+    padding:0 40px;
+    transform: translateY(45%);
+    position: relative;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+}
+.subtitle {
+    color: #98A0A3;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.education-title {
+    background-color: #F77500;
+}
+.skills-title {
+    background-color:#EF0542 ;
+}
+.experience-title {
+    background-color: #92C717;
+}
+.sertification-title {
+    background-color:#5C027D;
+}
+.achivment-title {
+    background-color: #10A7FF;
+}
