@@ -62,7 +62,7 @@ a {
     margin: 40px auto;
     border: 6px solid #fff;
     border-radius: 50%;
-    background: #001429 url(./img/photo_2020-09-06_22-11-04.jpg) no-repeat center/contain;
+    background: #001429 url(./img/photo_2020-09-06_22-11-04.jpg) no-repeat center/cover;
 }
 .left-title {
     background-color: #001429;
