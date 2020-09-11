@@ -24,6 +24,10 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+    color: #fff;
+    transition: color .1s ease-in;
+}
 /*====================================== left side ======================================*/
 .left-side {
     background-color: #08243A;
@@ -101,7 +105,7 @@ flex-direction: column;
 justify-content: center;
 position: relative;
 font-weight: bold;
-width: 500px;
+max-width: 500px;
 padding: 0 50px;
 }
 
@@ -123,11 +127,21 @@ padding: 0 50px;
 .right-list {
     list-style: none;
     padding:0 40px;
+    min-width: 400px;
+    max-width: 700px;
+}
+.list-years {
+    position: relative;
 }
 
 .list-item {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
+}
+.list-margin {
+    position: absolute;
+    left: 40%;
 }
 .skill-item  {
  position: relative;
